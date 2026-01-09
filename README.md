@@ -1,2 +1,1 @@
-# Portfolio
-My Data Analyst Portfolio
+**This repository contains my Data Analyst portfolio, showcasing hands-on projects where I analyze real-world datasets using Excel, SQL, Python, and Tableau to extract actionable business insights.**
