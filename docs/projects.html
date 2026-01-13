@@ -1,171 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Projects</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Projects | Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-<nav class="navbar">
-    <div class="nav-container">
-        <div class="logo">
-            <a href="index.html">Blecy Rajan</a>
-        </div>
-        <ul class="nav-links">
-            <li><a href="index.html" ">Home</a></li>
-            <li><a href="projects.html" class="active">Projects</a></li>
-        </ul>
-    </div>
-</nav>
 
 <div class="container">
-    <section class="projects-section">
-        <div class="project-card">
 
-<section class="projects-section">
-    <h1>Projects</h1>
+    <!-- PROJECT 1 -->
+    <h1>Sales Performance Analysis</h1>
 
-    <!-- ================= SALES PERFORMANCE ANALYSIS PROJECT ================= -->
-
-    <div class="project-card">
-
-        <h2>Sales Performance Analysis</h2>
-
-        <p class="project-description">
-            An end-to-end data analytics project where the same sales dataset was analyzed
-            using Excel, SQL, Python, and Tableau to extract meaningful business insights
-            related to sales trends, regional performance, and product contribution.
-        </p>
-
-        <!-- Problem Statement -->
-        <h3>Problem Statement</h3>
+    <div class="section">
         <p>
-            Businesses need a clear understanding of their sales performance across regions,
-            products, categories, and time periods to make informed decisions.
-            This project analyzes sales data to identify trends and key performance drivers.
+            This project analyzes sales data to understand revenue distribution,
+            monthly trends, product performance, and regional sales behavior.
+            The objective is to generate insights that support business
+            decision-making.
         </p>
-
-        <!-- Tools Used -->
-        <h3>Tools & Technologies</h3>
-        <ul>
-            <li>Excel – Formulas, Pivot Tables, Charts</li>
-            <li>SQL (MySQL) – Aggregations, Filtering</li>
-            <li>Python – Pandas & Matplotlib</li>
-            <li>Tableau – Interactive Dashboard</li>
-        </ul>
-
-        <!-- ================= EXCEL SECTION ================= -->
-        <h3>Excel Analysis</h3>
-        <p>
-            Excel was used for initial data exploration, revenue calculations,
-            pivot table analysis, and visualization.
-        </p>
-
-        <ul>
-            <li>Region-wise revenue analysis</li>
-            <li>Monthly sales trend analysis</li>
-            <li>Product-wise revenue comparison</li>
-            <li>Category-wise revenue contribution</li>
-        </ul>
-
-        <div class="project-images-grid">
-            <div>
-                <h4>Region-wise Revenue</h4>
-                <img src="assets/images/Region Revenue.png" alt="Region-wise Revenue Chart">
-            </div>
-
-            <div>
-                <h4>Monthly Sales Trend</h4>
-                <img src="assets/images/Monthly Sales.png" alt="Monthly Sales Trend Chart">
-            </div>
-
-            <div>
-                <h4>Product-wise Revenue</h4>
-                <img src="assets/images/Product Revenue.png" alt="Product-wise Revenue Chart">
-            </div>
-
-            <div>
-                <h4>Category-wise Revenue</h4>
-                <img src="assets/images/Category Revenue.png" alt="Category-wise Revenue Chart">
-            </div>
-        </div>
-
-        <p>
-            <a href="https://github.com/Blecyrajan/Portfolio/blob/43f57a950dc94616bd8584f71e7dbfb134502ccd/docs/data/Sales_Performance_Analysis.csv" target="_blank">
-                📂 View Excel File
-            </a>
-        </p>
-
-        <!-- ================= SQL SECTION ================= -->
-        <h3>SQL Analysis</h3>
-        <p>
-            SQL was used to perform structured data analysis on the same dataset.
-            Queries were written to calculate revenue metrics, analyze trends,
-            and rank products using window functions.
-        </p>
-
-        <ul>
-            <li>Total and region-wise revenue calculation</li>
-            <li>Product and category performance analysis</li>
-            <li>Date-based monthly trend analysis</li>
-            <li>Ranking using SQL window functions</li>
-        </ul>
-
-        <p>
-            <a href="https://github.com/Blecyrajan/Portfolio/blob/d2966e78e939b73d51d6cf9d4da2debf7d03918b/docs/SQL/sales_analysis.sql" target="_blank">
-                🧾 View SQL Script
-            </a>
-        </p>
-
-        <!-- ================= PYTHON SECTION ================= -->
-        <h3>Python Analysis</h3>
-        <p>
-            Python was used for programmatic data analysis using Pandas and Matplotlib.
-            The analysis was implemented in a Kaggle Notebook environment.
-        </p>
-
-        <ul>
-            <li>Data loading and exploration</li>
-            <li>Group-by aggregations using Pandas</li>
-            <li>Time-based sales analysis</li>
-            <li>Visualization using Matplotlib</li>
-        </ul>
-
-        <p>
-            <a href="https://github.com/Blecyrajan/Portfolio/blob/d2966e78e939b73d51d6cf9d4da2debf7d03918b/docs/python/sales-analysis-python.ipynb" target="_blank">
-                🐍 View Kaggle Notebook
-            </a>
-        </p>
-
-        <!-- ================= TABLEAU SECTION ================= -->
-        <h3>Tableau Dashboard</h3>
-        <p>
-            An interactive Tableau dashboard was created to visualize key sales metrics
-            including regional performance, product contribution, category distribution,
-            and monthly sales trends.
-        </p>
-
-        <img src="tableau/Sales Performance Analysis Dashboard.png" alt="Tableau Sales Dashboard" style="width:100%; max-width:900px; border-radius:8px;">
-
-        <p>
-            <a href="https://public.tableau.com/views/SalesAnalysis_17679458712390/SalesPerformanceAnalysisDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank">
-                📊 View Interactive Tableau Dashboard
-            </a>
-        </p>
-
-        <!-- ================= INSIGHTS ================= -->
-        <h3>Key Insights</h3>
-        <ul>
-            <li>North region generated the highest revenue</li>
-            <li>Electronics category contributed the most to total sales</li>
-            <li>Laptop was the top-performing product</li>
-            <li>Sales showed a decline from January to February</li>
-        </ul>
-
     </div>
-</section>
-        </div>
-    </section>
+
+    <div class="section">
+        <h2>Tools Used</h2>
+        <ul>
+            <li>Excel – Data cleaning and summaries</li>
+            <li>Python – Data analysis and visualization</li>
+            <li>Matplotlib – Charts and plots</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Key Insights</h2>
+        <ul>
+            <li>Electronics category generated the highest revenue</li>
+            <li>Sales showed noticeable monthly variation</li>
+            <li>Regional revenue performance varied significantly</li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <!-- PROJECT 2 -->
+    <h1 id="quicklist">QuickList – Task Management System (MERN)</h1>
+
+    <div class="section">
+        <p>
+            QuickList is a full-stack task management web application developed
+            using the MERN stack. The application allows users to create, update,
+            complete, and delete tasks with persistent storage using MongoDB.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Tech Stack</h2>
+        <ul>
+            <li>Frontend: React, CSS</li>
+            <li>Backend: Node.js, Express.js</li>
+            <li>Database: MongoDB</li>
+            <li>API Communication: Axios</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Features</h2>
+        <ul>
+            <li>Add new tasks</li>
+            <li>Edit existing tasks</li>
+            <li>Mark tasks as completed</li>
+            <li>Delete tasks</li>
+            <li>RESTful API integration</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>What I Learned</h2>
+        <ul>
+            <li>Building REST APIs using Express</li>
+            <li>CRUD operations with MongoDB</li>
+            <li>Connecting frontend and backend using Axios</li>
+            <li>Managing state and UI updates in React</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Project Link</h2>
+        <p>
+            GitHub Repository:
+            <a href="https://github.com/Blecyrajan/QuickList" target="_blank">
+                https://github.com/Blecyrajan/QuickList
+            </a>
+        </p>
+    </div>
+
+    <a href="index.html" class="back-link">⬅ Back to Home</a>
+
 </div>
 
 </body>
