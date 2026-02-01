@@ -1,1 +1,4 @@
-**This repository contains my Data Analyst portfolio, showcasing hands-on projects where I analyze real-world datasets using Excel, SQL, Python, and Tableau to extract actionable business insights.**
+**This repository contains my portfolio, showcasing hands-on projects on data science, AI, and full stack development.** 
+1. Sales Analysis
+2. Task Management System
+3. Resume Analyzer & Job Tracker
